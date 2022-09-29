@@ -1,0 +1,104 @@
+/* regole generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+
+}
+/* main */
+main {
+    width: 80vw;
+    height: 50vh;
+    margin: 50px auto;
+
+}
+.person-description>span {
+    display: block;
+}
+.title {
+    color: palevioletred;
+    width: 20vw;
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+}
+.description {
+    font-weight: 400;
+    width: 40vw;
+    margin: 20px auto;
+    text-align: center;
+}
+.team {
+    height: 30vh;
+    width: 60vw;
+    margin: 30px auto;
+}
+.row {
+    height: 15vh;
+    width: 60vw;
+   /*  background-color: blue;
+    border-bottom: 2px black solid; */
+    padding-left: 2.5vw;
+    padding-right: 2.5vw ;
+    
+}
+.person {
+    height: 10vh;
+    width: 15vw;
+    float: left;
+    background-color: rgb(18, 17, 24);
+    margin: 2%;
+    box-shadow: 2px 1px 2px 1px grey;
+}
+/* boxes */
+.image {
+    height: 100%;
+    width: 35%;
+    float: left;
+    background-size: cover;
+}
+.person-description {
+    height: 100%;
+    width: 65%;
+    float: left;
+    padding: 5%;
+}
+.marco {
+    background-image: url(../img/male1.png);
+}
+.laura {
+    background-image: url(../img/female1.png);
+}
+.giorgio {
+    background-image: url(../img/male2.png);
+}
+.marta {
+    background-image: url(../img/female2.png);
+}
+.roberto {
+    background-image: url(../img/male3.png);
+}
+.daniela {
+    background-image: url(../img/female3.png);
+}
+.name {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;  
+}
+.position, .email { 
+    font-weight: 400;
+    margin-top: 5%;
+}
+.position {
+    color: white;
+}
+.email {
+    color: rgb(107, 202, 246);
+    font-size: 18px;
+}
+.email::after {
+    content: "@team.com";
+}
+
+
